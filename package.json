@@ -1,0 +1,18 @@
+{
+  "name": "ex-html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "live": "^0.1.25-beta.0",
+    "live-server": "^1.2.1",
+    "server": "^1.0.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
+  },
+  "author": "",
+  "license": "ISC"
+}
