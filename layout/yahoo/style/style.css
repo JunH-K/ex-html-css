@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: green;
+    width: 99%;
+    margin: 0;
+    border: 1px solid #cccccc;
+}
+
+#header_nav {
+    width: 100%;
+    overflow: hidden;
+    background-color: #2d1152;
+}
+
+#header_nav li {
+    font-size: 0.9em;
+    color: white;
+    margin-right: 20px;
+    list-style: none;
+    float: left;
+}
+
+#header_nav .firefox {
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+#header_nav .firefox a {
+    color: white;
+}
+
+#header_info {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header_info div {
+    margin-top: 10px;
+    float: left;
+}
+
+#header_info .search input {
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid #3d88c9;
+    margin-top: 6px;
+    padding: 5px;
+}
+
+#header_info .btn_search {
+    width: 124px;
+    height: 38px;
+    border: 0;
+    background: url("../img/search_btn.png") no-repeat 0 0;
+}
+
+#header_info .txt_sw {
+    color: #ffff;
+    font-size: 1.2em;
+}
+
+#header_info .service {
+    float: right;
+}
+
+#header_info .service ul li {
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+}
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#main_nav {
+    background: green;
+    width: 155px;
+    float: left;
+}
+
+#content ul li {
+    list-style: none;
+    line-height: 35px;
+}
+
+#main {
+    background: yellow;
+    width: 600px;
+    margin-left: 5px;
+    float: left;
+}
+
+#main div {
+    border: 1px solid #cccccc;
+}
+
+#content #main div:nth-child(1) {
+    width: 590px;
+    height: 300px;
+}
+
+#content #main div:nth-child(2) {
+    width: 590px;
+    height: 150px;
+}
+
+#content #main div:nth-child(3) {
+    width: 590px;
+    height: 50px;
+    margin-top: 5px;
+    background: #56219c;
+}
+
+#content #main div:nth-child(3) ul {
+    margin: 8px 0 0 0;
+}
+
+#content #main div:nth-child(3) ul li {
+    list-style: none;
+    float: left;
+    margin-right: 23px;
+    color: #ffff;
+    font-size: 1.1em;
+}
+
+.main_topic {
+    width: 590px;
+    height: 120px;
+    margin-top: 2px;
+}
+
+#main_banner {
+    width: 230px;
+    margin-left: 5px;
+    float: left;
+}
+
+#main_banner div {
+    border: 1px solid #cccccc;
+}
+
+#main_banner .ad {
+    width: 230px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+footer {
+    width: 1000px;
+    height: 200px;
+    line-height: 200px;
+    margin: 20px auto 0;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
