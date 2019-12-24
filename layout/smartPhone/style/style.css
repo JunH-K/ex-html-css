@@ -99,3 +99,20 @@ a {
     padding: 10px;
     color: #330033;
 }
+
+#section_body p:nth-child(1) {
+    color: #ff85c2;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px 0;
+}
+
+#section_body p:nth-child(2) {
+    background-image: url("../img/visual14.jpg");
+    background-repeat: no-repeat;
+    background-position: -600px;
+}
+
+#footer {
+    padding: 10px;
+}
