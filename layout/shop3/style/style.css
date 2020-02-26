@@ -10,9 +10,7 @@ canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, o
     vertical-align: baseline;
 }
 
-li {
-    list-style: none;
-}
+
 
 
 .container{
@@ -39,7 +37,12 @@ li {
     box-sizing: border-box;
 }
 
+li {
+    list-style: none;
+}
+
 .tabs li{
+    list-style: none;
     float: left;
     text-align: center;
     width: 80px;
@@ -63,10 +66,12 @@ li {
 .contents .product li {
     float:left;
     width: calc(498px/3);
-    height:160px;
+    height:calc(498px/3);
     box-sizing: border-box;
     border-right:1px solid #5b6ae7;
     border-bottom:1px solid #5b6ae7;
+    padding: 5px;
+    position: relative;
 }
 .contents .product ul:last-child li {
     border-bottom:0;
@@ -75,10 +80,57 @@ li {
     border-right:0;
 }
 
-img {
-    width:100px;
-    height:100px
+.product img {
+    width: calc(498px/3 - 10px);
+    height: calc(498px/3 - 10px);
 }
 
+.price {
+    position: absolute;
+    background: rgba(43, 43, 43, 0.3);
+    bottom: 8px;
+    left: 16px;
+}
+
+.price span{
+    color:white;
+}
+
+.mall {
+    border: 1px solid #5b6ae7;
+}
+
+.mall ul li{
+    padding: 5px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.mall_order{
+    float: left;
+    width: 50px;
+    text-align: center;
+}
+
+.mall .mall_image{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.mall .mall_image img{
+    width: 100px;
+    height: 100px;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+}
 
 
