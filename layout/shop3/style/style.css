@@ -1,0 +1,84 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+li {
+    list-style: none;
+}
+
+
+.container{
+    width: 500px;
+    margin:0 auto;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.subject{
+    overflow:hidden;
+}
+
+.title{
+    width:calc(100% - 160px);
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.tabs{
+    width:160px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.tabs li{
+    float: left;
+    text-align: center;
+    width: 80px;
+    border: 1px solid #5b6ae7;
+    box-sizing: border-box;
+}
+
+.contents{
+    width:100%;
+    margin-top:10px;
+}
+
+.product{
+    text-align: center;
+    border: 1px solid #5b6ae7;
+}
+
+.contents .product ul {
+    overflow:hidden;
+}
+.contents .product li {
+    float:left;
+    width: calc(498px/3);
+    height:160px;
+    box-sizing: border-box;
+    border-right:1px solid #5b6ae7;
+    border-bottom:1px solid #5b6ae7;
+}
+.contents .product ul:last-child li {
+    border-bottom:0;
+}
+.contents .product li:last-child {
+    border-right:0;
+}
+
+img {
+    width:100px;
+    height:100px
+}
+
+
+
