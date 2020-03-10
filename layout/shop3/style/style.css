@@ -96,29 +96,29 @@ li {
     color:white;
 }
 
-.mall {
+.malls {
     border: 1px solid #5b6ae7;
 }
 
-.mall ul li{
+.malls ul li{
     padding: 5px;
     margin: 5px;
     overflow: hidden;
 }
 
-.mall_order{
+.malls_order{
     float: left;
     width: 50px;
     text-align: center;
 }
 
-.mall .mall_image{
+.malls .malls_image{
     float: left;
     width: 100px;
     height: 100px;
 }
 
-.mall .mall_image img{
+.malls .malls_image img{
     width: 100px;
     height: 100px;
 }
