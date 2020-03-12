@@ -89,8 +89,12 @@ body {
   width: 100%;
 }
 
+.clearfix{
+  clear:both;
+}
+
 .footer{
-  clear: left;
+  /*clear: left;*/
   margin-top: 120px;
   margin-bottom: 80px;
   text-align: center;
