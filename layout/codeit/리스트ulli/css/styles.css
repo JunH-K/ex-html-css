@@ -51,22 +51,34 @@ body {
   text-decoration: none;
 }
 
-.nav{
+.menu{
   color: white;
   list-style: none;
   padding-left: 22px;
 }
 
-.nav li{
+.menu a{
+  color:white;
+  text-decoration: none;
+}
+
+.menu li:not(:last-child){
   margin-bottom: 30px;
 }
 
 .logo {
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .sns{
-  margin-top: 25px;
+  margin-top: 60px;
   text-align: center;
+}
+
+.sns img:first-child{
+  margin-right: 13px;
 }
