@@ -1,0 +1,20 @@
+@media  (min-width: 768px){/*768이상*/
+  h1{
+    font-size: 70px;
+  }
+
+  p{
+    font-size: 24px;
+  }
+}
+
+
+@media  (min-width: 992px){
+  h1{
+    font-size: 100px;
+  }
+
+  p{
+    font-size: 24px;
+  }
+}
