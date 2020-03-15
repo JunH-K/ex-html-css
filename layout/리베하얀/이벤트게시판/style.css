@@ -20,9 +20,9 @@ main {
 
 .event_list li a {
     display: block; /* 탭으로 이동시 전체로 보이기위해*/
-    position: relative;
+    position: relative; /*마감 글자 절대위치 지정위해*/
     line-height: 1; /*줄간격초기화해서 다 붙게 만듦*/
-    width: 271px;
+    width: 271px; /*크기지정하여 안에서 자식들이 놀수 있게*/
     height: 382px;
     border-bottom: 1px solid #ddd;
 }
@@ -30,8 +30,8 @@ main {
 .event_list li a .img { /*이미지가 잘 나올수있게 img 부모div에 크기넣어줌*/
     width: 271px;
     height: 272px;
-    overflow: hidden;
-    position: relative;
+    overflow: hidden; /*이미지 숨김*/
+    position: relative; /*이미지 absolute 위해 */
     border-bottom: 1px solid black;
 }
 
