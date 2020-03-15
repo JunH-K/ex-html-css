@@ -1,0 +1,76 @@
+.event_list {
+    width: 1196px;
+}
+
+.event_list ul {
+    display: flex;
+    flex-flow: row wrap; /*가로배치, wrap 감사써 떨어지게 함*/
+}
+
+.event_list li {
+    flex: 0 1 25%;
+    padding: 0 0 34px; /*하단여백*/
+}
+
+.event_list li a {
+    display: block; /* 탭으로 이동시 전체로 보이기위해*/
+    position: relative;
+    line-height: 1; /*줄간격초기화해서 다 붙게 만듦*/
+    width: 271px;
+    height: 382px;
+    border-bottom: 1px solid #ddd;
+}
+
+.event_list li a .img { /*이미지가 잘 나올수있게 img 부모div에 크기넣어줌*/
+    width: 271px;
+    height: 272px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.event_list li a .img img { /*div 안 이미지 중앙 정렬*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.event_list li .info {
+    padding: 29px 10px 0;
+}
+
+.event_list li a .info strong {
+    display: block; /*가로사이즈를 넣기위해*/
+    width: 100%;
+    overflow: hidden; /*글씨초과 짜름*/
+    white-space: nowrap; /*글자개행 없이 한줄로*/
+    text-overflow: ellipsis; /*점점점*/
+    font-size: 18px;
+    color: #222;
+}
+
+.event_list li a p {
+    padding: 20px 0 0;
+    font-size: 13px;
+    color: #888;
+}
+
+.event_list li a span {
+    color: red;
+}
+
+.event_list li a em {
+    position: absolute;
+    right: 9px;
+    top: 9px;
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+
