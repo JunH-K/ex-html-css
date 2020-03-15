@@ -1,10 +1,16 @@
-.event_list {
+body {
+    padding: 50px;
+}
+
+main {
     width: 1196px;
+    margin: 0 auto;
 }
 
 .event_list ul {
     display: flex;
     flex-flow: row wrap; /*가로배치, wrap 감사써 떨어지게 함*/
+    align-content: flex-start;
 }
 
 .event_list li {
@@ -73,4 +79,93 @@
     text-align: center;
     line-height: 60px;
 }
+
+
+.paging {
+    padding: 28px 0 60px;
+}
+
+.paging ul {
+    display: flex;
+    justify-content: center; /*중앙정렬 x축정렬*/
+    /*align-content: y축;*/
+}
+
+.paging a {
+    display: block;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 15px;
+    color: #555;
+}
+
+.paging a:hover,
+.paging a.on {
+    background: #ed1846;
+    color: #fff;
+}
+
+.paging li {
+    margin: 0 7px
+}
+
+.paging .first {
+    margin: 0 16px 0 0;
+}
+
+.paging .prev {
+    margin: 0 6px 0 0;
+}
+
+.paging .next {
+    margin: 0 0 0 6px;
+}
+
+.paging .last {
+    margin: 0 0 0 16px;
+}
+
+.hide {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    border: 0;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.search {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    font-size: 0; /*select 와 input 틈을 매꿔줌*/
+}
+
+.search * {
+    margin: 0 5px;
+    height: 53px;
+}
+
+.search select {
+    width: 148px;
+    height: 53px;
+    border: 1px solid #ccc
+}
+
+.search input {
+    width: 258px;
+    height: 53px;
+    border: 1px solid #ccc
+}
+
+.search button {
+    width: 150px;
+    height: 53px;
+}
+
+
 
