@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <link href="reset.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>Flex 예제</title>
+  <style>
+    body {
+      padding: 30px
+    }
+
+    ul,ol {
+      border: 1px solid #3d88c9;
+      padding: 10px;
+      margin-bottom: 50px;
+    }
+
+    li{
+      border: 1px solid #2d1152;
+    }
+
+    ul.float:after { /*자식 float 인식을 못하기때문에 clear 해준다*/
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    .float li {
+      float: left;
+      width: 20%;
+      box-sizing: border-box;
+    }
+
+    .table{
+      display: table;
+      width: 100%;
+      border-collapse: collapse;/* 표와 테두리 간격없앰*/
+      border-spacing: 0; /* 표(table)의 테두리와 셀(td)의 테두리 사이의 간격을 정합니다. */
+      table-layout: fixed; /* 간격고정*/
+    }
+
+    ol.table li{
+      display: table-cell;
+    }
+
+    ul.flex{
+      display: flex;
+    }
+
+    .flex li{
+      flex:1;
+    }
+
+    .flex li:nth-child(1){
+      flex:2;
+    }
+
+    .flex li:nth-child(2){/*두번째 자식은 flex 해제 후 width 고정 하면 나머지 자식들만 flex 로 비율조정*/
+      flex:none;
+      width: 200px;
+    }
+
+  </style>
+</head>
+<body>
+<h2>float</h2>
+<ul class="float">
+  <li>1</li>
+  <li>22</li>
+  <li>333</li>
+  <li>4444</li>
+  <li>55555</li>
+</ul>
+
+<h2>flex</h2>
+<ul class="flex">
+  <li>1</li>
+  <li>22</li>
+  <li>333</li>
+  <li>4444</li>
+  <li>55555</li>
+</ul>
+
+<h2>table</h2>
+<ol class="table">
+  <li>1</li>
+  <li>22</li>
+  <li>333</li>
+  <li>4</li>
+  <li>5</li>
+</ol>
+
+</body>
+</html>
