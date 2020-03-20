@@ -161,36 +161,37 @@ header .spot li:first-child:after {
     right: 0;
 }
 
-.visual .control > div > div a{
+.visual .control > div > div a {
     display: inline-block;
-    width:8px;
+    width: 8px;
     height: 9px;
     overflow: hidden;
     margin: 0 0 0 7px;
 }
 
-.visual .control > div > div a.on{
+.visual .control > div > div a.on {
     opacity: 1;
 }
 
-.visual .control > div > div a.play{
+.visual .control > div > div a.play {
     /*background: url("");*/ /*이미지*/
     /*background-position: ;*/
 }
-.visual .control > div > div a.pause{
+
+.visual .control > div > div a.pause {
     /*background: url("");*//*이미지*/
     /*background-position: ;*/
 }
 
 .visual .control ul {
     display: inline-block;
-    font-size: 0;/* inline-block로 바뀌면서 개행이 자동으로 여백이 들어가 그걸 없앰*/
-    position: relative;/* 시작,정지와 위치 맞춤 */
-    top:-7px;
+    font-size: 0; /* inline-block로 바뀌면서 개행이 자동으로 여백이 들어가 그걸 없앰*/
+    position: relative; /* 시작,정지와 위치 맞춤 */
+    top: -7px;
 }
 
-.visual .control li{
-    display: inline-block;/* 부모의 text-align : center로 중앙정렬*/
+.visual .control li {
+    display: inline-block; /* 부모의 text-align : center로 중앙정렬*/
     padding: 0 3px;
 }
 
@@ -211,5 +212,20 @@ header .spot li:first-child:after {
 
 .visual .con .slide {
     background: url("images/image.jpg") no-repeat center;
+    color: #fff;
+    font-size: 32px;
+    line-height: 46px;
+}
+
+.visual .con .slide p {
+    padding: 19px 0 0;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.visual .con .slide .txt {
+    position: absolute;
+    left: 50%;
+    top: 175px;
 }
 
