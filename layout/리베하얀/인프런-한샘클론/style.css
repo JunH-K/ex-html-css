@@ -255,6 +255,16 @@ header .spot li:first-child:after {
     height: 52px;
 }
 
+.product ul {
+    width: 1044px;
+    margin: 0 auto;
+}
+
+.product li{
+    float: left;
+    text-align: center;
+    padding: 0 55px;
+}
 .product li:nth-child(1) a:before {
     /*스프라이드 이미지위치지정*/
     /*background-position: 1px 1px;*/
