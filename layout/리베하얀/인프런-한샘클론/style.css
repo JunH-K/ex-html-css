@@ -21,6 +21,7 @@ body{
 }
 
 header {
+    position: relative;/* nav 부분의 포지션이 right 기준이라 부모요소인 header에 포지션 속성 설정*/
     text-align: center;
     height: 81px;
 }
