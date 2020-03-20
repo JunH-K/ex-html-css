@@ -66,14 +66,14 @@ header .lnb li a:hover {
     font-weight: bold;
 }
 
-header .lnb li a span{
+header .lnb li a span {
     position: relative;
 }
 
 header .lnb li a:hover span:after {
     position: absolute;
     left: 0;
-    bottom:-9px;
+    bottom: -9px;
     width: 100%;
     height: 1px;
     content: '';
@@ -111,5 +111,18 @@ header .spot li:last-child a {
 
 header .spot li:first-child:after {
     display: none;
+}
+
+/* 비주얼 영역 */
+.visual {
+    padding: 0 50px;
+}
+
+.visual .con > div{
+    height: 640px;
+}
+
+.visual .con .slide {
+    background: url("images/image.jpg") no-repeat center;
 }
 
