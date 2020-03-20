@@ -255,13 +255,19 @@ header .spot li:first-child:after {
     height: 52px;
 }
 
+
+/* float 과 width 를 주고 가로배치를 하면 확장시 레이아웃꺠짐*/
 .product ul {
-    width: 1044px;
-    margin: 0 auto;
+    /*width: 1044px;*/
+    /*margin: 0 auto;*/
+    padding : 46px 0 41px;
+    text-align: center;
+    font-size: 0;
 }
 
 .product li{
-    float: left;
+    /*float: left;*/
+    display: inline-block; /* 개행때문에 여백이 생김*/
     text-align: center;
     padding: 0 55px;
 }
