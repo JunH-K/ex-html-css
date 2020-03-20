@@ -141,6 +141,70 @@ header .spot li:first-child:after {
     /*background-position: -158px -60px;*/
 }
 
+.visual .control {
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+    text-align: center;
+    width: 100%;
+}
+
+.visual .control > div {
+    display: inline-block;
+    position: relative;
+    padding: 0 45px 0 0;
+
+}
+
+.visual .control > div > div {
+    position: absolute;
+    right: 0;
+}
+
+.visual .control > div > div a{
+    display: inline-block;
+    width:8px;
+    height: 9px;
+    overflow: hidden;
+    margin: 0 0 0 7px;
+}
+
+.visual .control > div > div a.on{
+    opacity: 1;
+}
+
+.visual .control > div > div a.play{
+    /*background: url("");*/ /*이미지*/
+    /*background-position: ;*/
+}
+.visual .control > div > div a.pause{
+    /*background: url("");*//*이미지*/
+    /*background-position: ;*/
+}
+
+.visual .control ul {
+    display: inline-block;
+    font-size: 0;/* inline-block로 바뀌면서 개행이 자동으로 여백이 들어가 그걸 없앰*/
+    position: relative;/* 시작,정지와 위치 맞춤 */
+    top:-7px;
+}
+
+.visual .control li{
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.visual .control li.on a {
+    background-color: #fff;
+}
+
+.visual .control li a {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 .visual .con > div {
     height: 640px;
 }
