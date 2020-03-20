@@ -190,7 +190,7 @@ header .spot li:first-child:after {
 }
 
 .visual .control li{
-    display: inline-block;
+    display: inline-block;/* 부모의 text-align : center로 중앙정렬*/
     padding: 0 3px;
 }
 
