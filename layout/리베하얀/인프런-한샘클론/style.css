@@ -236,21 +236,27 @@ header .spot li:first-child:after {
 
 
 .product a {
+    display: block;
     color: #292929;
     font-size: 15px;
 }
 
-.product a:hover{
+.product a:hover {
     color: #ff6469;
     font-weight: bold;
 }
+
 /* 이미지를 before 로 백그라운드 이미지 */
-.product a:before{
+.product a:before {
     display: block; /* 가로세로 넣기위해*/
-    content:'';/* 가상의 inline 이라 기본적으로 배경을 안보임*/
+    content: ''; /* 가상의 inline 이라 기본적으로 배경을 안보임*/
     background: url("images/product.jpg") no-repeat;
     width: 64px;
     height: 52px;
 }
 
+.product li:nth-child(1) a:before {
+    /*스프라이드 이미지위치지정*/
+    /*background-position: 1px 1px;*/
+}
 
