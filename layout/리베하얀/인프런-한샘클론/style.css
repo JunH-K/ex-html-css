@@ -253,6 +253,7 @@ header .spot li:first-child:after {
     background: url("images/product.jpg") no-repeat;
     width: 64px;
     height: 52px;
+    margin: 0 0 20px;
 }
 
 
