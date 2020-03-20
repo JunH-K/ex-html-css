@@ -1,4 +1,4 @@
-body{
+body {
     min-width: 1280px;
 }
 
@@ -21,7 +21,7 @@ body{
 }
 
 header {
-    position: relative;/* nav 부분의 포지션이 right 기준이라 부모요소인 header에 포지션 속성 설정*/
+    position: relative; /* nav 부분의 포지션이 right 기준이라 부모요소인 header에 포지션 속성 설정*/
     text-align: center;
     height: 81px;
 }
@@ -233,4 +233,24 @@ header .spot li:first-child:after {
     left: 50%;
     top: 175px;
 }
+
+
+.product a {
+    color: #292929;
+    font-size: 15px;
+}
+
+.product a:hover{
+    color: #ff6469;
+    font-weight: bold;
+}
+/* 이미지를 before 로 백그라운드 이미지 */
+.product a:before{
+    display: block; /* 가로세로 넣기위해*/
+    content:'';/* 가상의 inline 이라 기본적으로 배경을 안보임*/
+    background: url("images/product.jpg") no-repeat;
+    width: 64px;
+    height: 52px;
+}
+
 
