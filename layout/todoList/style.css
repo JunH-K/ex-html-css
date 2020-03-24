@@ -14,10 +14,10 @@ button {
     color: white;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /*display: inline-block;*/
     cursor: pointer;
     border-radius: 2px;
-    height: 26px;
+    height: 30px;
 }
 
 input[type=checkbox] {
@@ -29,7 +29,9 @@ input[type=checkbox] {
 }
 
 .wrapper {
-    width: 500px;
+    width: 50vw;
+    min-width: 480px;
+    max-width: 700px;
     margin: 0 auto;
     border: 1px solid #a1a1a1;
 }
@@ -37,26 +39,31 @@ input[type=checkbox] {
 .header {
     position: relative;
     height: 50px;
-    line-height: 50px;
     background: #3D3D3D;
 }
 
 input[type=text] {
     padding: 5px 5px;
-    margin-left: 10px;
     display: inline-block;
+    width: 80%;
+    height: 30px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
 .header .search {
-    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
 }
 
 .header .more-action {
+    float: right;
     position: absolute;
-    right: 20px;
-    top: 13px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
 }
 
 .wrapper {
@@ -114,11 +121,12 @@ input[type=text] {
     width: 150px;
     position: absolute;
     padding: 5px;
-    top: 39px;
-    right: -78px;
+    top: 40px;
+    right: -87px;
     border-radius: 1px;
     border: 1px solid #6e6e6e;
     background: #f4f4f4;
+    z-index: 1;
 }
 
 .wrapper .more-action-menu .menu {
