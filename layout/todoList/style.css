@@ -75,22 +75,12 @@ input[type=text] {
 }
 
 .content .write input {
-    width: 80%;
+    width: 79%;
 }
 
 .content .write .write-ref {
     position: relative;
     margin-bottom: 2px;
-}
-
-.content .write-todo .add {
-    position: absolute;
-    right: 10px;
-}
-
-.content .write-ref .cancel {
-    position: absolute;
-    right: 10px;
 }
 
 .content .todo {

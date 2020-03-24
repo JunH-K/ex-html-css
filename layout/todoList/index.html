@@ -13,7 +13,7 @@
 <body>
 <div class="wrapper">
   <div class="header">
-    <input type="text" class="search" placeholder="검색">
+    <input type="text" class="search" placeholder="검색 ex) 내용 , 날짜:20200101">
     <button class="more-action"> 더보기</button>
   </div>
   <div class="content">
@@ -21,7 +21,7 @@
       <div class="write-todo"><input type="text" placeholder="할일입력..">
         <button class="add">작업추가</button>
       </div>
-      <div class="write-ref"><input type="text" placeholder="참조 Todo 아이디입력..ex)@1@5">
+      <div class="write-ref"><input type="text" placeholder="참조 Todo 아이디입력.. ex) @1@5">
         <button class="cancel">취소</button>
       </div>
     </div>
@@ -29,13 +29,23 @@
     <div class="todo">
       <input type="checkbox" id="1" name="vehicle1" checked>
       <span data-id="1">1</span>
-      <span class="complete" title="클릭하여 수정 가능합니다."> 할일~</span>
+      <span class="complete" title="클릭하여 수정 or 삭제"> 할일~</span>
       <div class="ref-id">
         <p>@1@5</p>
       </div>
       <div class="date">
         <span>생성 : 2020.1.1</span>
         <span>수정 : 2020.1.1</span>
+      </div>
+    </div>
+
+    <div class="write">
+      <div class="write-todo"><input type="text" placeholder="할일입력..">
+        <button class="add">작업추가</button>
+      </div>
+      <div class="write-ref"><input type="text" placeholder="참조 Todo 아이디입력.. ex) @1@5">
+        <button class="cancel">취소</button>
+        <button class="delete">삭제</button>
       </div>
     </div>
 
