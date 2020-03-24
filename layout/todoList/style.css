@@ -39,7 +39,7 @@ input[type=checkbox] {
 .header {
     position: relative;
     height: 50px;
-    background: #3D3D3D;
+    background: #0078d7;
 }
 
 input[type=text] {
@@ -48,7 +48,6 @@ input[type=text] {
     width: 80%;
     height: 30px;
     border: 1px solid #ccc;
-    border-radius: 4px;
 }
 
 .header .search {
@@ -87,6 +86,14 @@ input[type=text] {
 
 .content .write input {
     width: 79%;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.content .write input:focus {
+    border-bottom: 1px solid #0078d7;
 }
 
 .content .write .write-ref {
@@ -166,12 +173,13 @@ input[type=text] {
 }
 
 .alert {
+    line-height: 20px;
     display: none;
     position: absolute;
     left: 50%;
     top: 20%;
-    padding: 10px;
-    width: 250px;
+    padding: 15px;
+    width: 300px;
     max-height: 250px;
     transform: translate(-50%, -50%);
     background: #3D3D3D;
