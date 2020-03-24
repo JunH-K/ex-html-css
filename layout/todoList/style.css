@@ -74,6 +74,10 @@ input[type=text] {
     margin-bottom: 2px;
 }
 
+.content .write .write-todo .add {
+    width: 84px;
+}
+
 .content .write input {
     width: 79%;
 }
